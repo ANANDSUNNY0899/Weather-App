@@ -325,12 +325,12 @@
 
 import { useState, useEffect } from "react";
 import { fetchWeather } from "./APIcall";
-import SearchBar from "./Components/SearchBar";
 import WeatherCard from "./Components/WeatherCard";
 import Loader from "./Components/Loader";
 import ErrorMessage from "./Components/ErrorMessage";
 import { Moon, Sun, RefreshCw } from "lucide-react";
 import { motion } from "framer-motion";
+import SearchBar from "./Components/SearchBar";
 
 function App() {
   const [weather, setWeather] = useState(null);
