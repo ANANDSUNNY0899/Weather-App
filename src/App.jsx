@@ -416,7 +416,7 @@ function App() {
         {/* Recent Search History */}
         {searchHistory.length > 0 && (
           <div className="mt-4 p-2 bg-gray-100 dark:bg-gray-700 rounded-lg">
-            <h2 className="text-sm font-semibold mb-2">Recent Searches:</h2>
+            <h2 className="text-sm text-black font-semibold mb-2">Recent Searches:</h2>
             <div className="flex gap-2 flex-wrap">
               {searchHistory.map((city, index) => (
                 <button
